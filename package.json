@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/YKassabi/static_portofolio_NodeJs/issues"
   },
-  "homepage": "https://github.com/YKassabi/static_portofolio_NodeJs#readme"
+  "homepage": "https://github.com/YKassabi/static_portofolio_NodeJs#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
 }
