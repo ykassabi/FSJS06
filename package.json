@@ -2,8 +2,9 @@
   "name": "static_node_and_express_site-v1",
   "version": "1.0.0",
   "description": "protofolio with static nodejs using express practice project",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start" : "nodemon app.js --exec babel-node -e js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,6 +17,11 @@
     "url": "https://github.com/YKassabi/static_portofolio_NodeJs/issues"
   },
   "homepage": "https://github.com/YKassabi/static_portofolio_NodeJs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "pug": "^2.0.3"
