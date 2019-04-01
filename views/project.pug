@@ -3,30 +3,31 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') ← Back Home ||
+    a(href=`/project/`+ nextProject)  next project →
+
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Use interploation to dynamically add the project title.
         h1= curProject.project_name
 
-        //- Use interploation to dynamically add the project description.
         p.lead.text-light= curProject.description
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
-        //- Use an `each` iterator to replace the li tags below and interploation to dynamically add the technologies used in each project.
         ul
         each val in curProject.technologies
           li= val
-
-        //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
-        a.button.expanded(href=`${curProject.live_link}`) live Demo
-        a.button.expanded(href=`${curProject.github_link}`) Github
+        if curProject.id !== 6
+          a.button.expanded(href=`${curProject.live_link}` target="_blank") live Demo
+        else
+          a.button.expanded(href=`#` disabled) No Demo
+        a.button.expanded(href=`${curProject.github_link}` target="_blank") Github
     
-    //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential emplyers will like to see. 
-    img.image(src='https://placehold.it/1200x550')
-    img.image(src='https://placehold.it/1200x550')
-    img.image(src='https://placehold.it/1200x550')
+
+    ul
+      each imag in curProject.image_urls
+        img(src= imag).littleSpaceImg
+

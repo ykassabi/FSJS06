@@ -1,0 +1,14 @@
+extends layout.pug
+
+block content 
+    div.grid-container.portfolio-intro
+        if error.status == 404
+            h2.lead.text-light= error.status
+            h3.lead.text-light Oups!! Wrong turn ! #{error.message} 
+            p= error.stack
+        else 
+            h2.lead.text-light= error.status
+            h3= error.message
+
+        //- img(src='/wall.jpg')
+        a(href='/') ← Back to Home

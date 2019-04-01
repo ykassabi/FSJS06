@@ -1,51 +1,61 @@
 {
-    "projects": [{
+    "projects": [
+        {
         "id": 0,
-        "project_name": "pagination1",
-        "description": " what ever you want !",
+        "project_name": "A Random Quote Generator ",
+        "description": "Generate random quote from a list and chaging the background color, react to a button or building timer, project show DOM Manipulation in Javascript",
         "technologies": ["HTML", "CSS", "Javascript"],
-        "live_link": "https://........",
-        "github_link": "https.........",
-        "image_urls": "https://via.placeholder.com/150"
+        "live_link": "https://ykassabi.github.io/Project01FSJS/",
+        "github_link": "https://github.com/YKassabi/Project01FSJS",
+        "image_urls": ["/images/FSJS00.png","/images/FSJS00a.png","/images/FSJS00b.png"]
     },{
         "id": 1,
-        "project_name": "pagination2",
-        "description": " what ever you want 2 !",
+        "project_name": "Pagination and Filtering ",
+        "description": "Very usefull function from UX standing point; help to display chunk of data at a time, with as many items as there are, the script allow to show just 10 items a page at a time",
         "technologies": ["HTML", "CSS", "Javascript"],
-        "live_link": "https://........",
-        "github_link": "https.........",
-        "image_urls": "https://via.placeholder.com/150"
+        "live_link": "https://ykassabi.github.io/Project02FSJS/",
+        "github_link": "https://github.com/YKassabi/Project02FSJS",
+        "image_urls": ["/images/FSJS01.png","/images/FSJS01a.png"]
     },{
         "id": 2,
-        "project_name": "pagination3",
-        "description": " what ever you want 3!",
+        "project_name": "Interactive Form",
+        "description": " For better UI, this functionality validate and help to guide the user through filling the form by giving feedbacks and displaying warnings while the form is being filled.",
         "technologies": ["HTML", "CSS", "Javascript"],
-        "live_link": "https://........",
-        "github_link": "https.........",
-        "image_urls": "https://via.placeholder.com/150"
+        "live_link": "https://ykassabi.github.io/Project03FSJS/",
+        "github_link": "https://github.com/YKassabi/Project03FSJS",
+        "image_urls": ["/images/FSJS02.png","/images/FSJS02a.png","/images/FSJS02b.png"]
     },{
         "id": 3,
-        "project_name": "pagination4",
-        "description": " what ever you want 2 !",
+        "project_name": "Tic Tac Toc",
+        "description": "The game is played by two players, showing the winner after the correct combination is fullfilled, also to keep score",
         "technologies": ["HTML", "CSS", "Javascript"],
-        "live_link": "https://........",
-        "github_link": "https.........",
-        "image_urls": "https://via.placeholder.com/150"
+        "live_link": "https://ykassabi.github.io/project04fsjs/",
+        "github_link": "https://github.com/YKassabi/project04fsjs",
+        "image_urls": ["/images/FSJS03.png","/images/FSJS03a.png","/images/FSJS03b.png"]
     },{
         "id": 4,
-        "project_name": "pagination5",
-        "description": " what ever you want 3!",
+        "project_name": "Public API Show APP",
+        "description": "The app grabs number of user between 6 and 48 from an API and also let you make request from API by Nationalities and there is search option as implimented  ",
         "technologies": ["HTML", "CSS", "Javascript"],
-        "live_link": "https://........",
-        "github_link": "https.........",
-        "image_urls": "https://via.placeholder.com/150"
+        "live_link": "https://ykassabi.github.io/Project05fsjs/",
+        "github_link": "https://github.com/YKassabi/Project05fsjs",
+        "image_urls": ["/images/FSJS04.png","/images/FSJS04a.png","/images/FSJS04b.png"]
     },{
         "id": 5,
-        "project_name": "pagination6",
-        "description": " what ever you want 2 !",
+        "project_name": "Phrase Hunter",
+        "description": " It's about guess a phrase or a capital, you can also pick a timed game for less than 2 min! also a hint option help to guess process with many featured implimented",
         "technologies": ["HTML", "CSS", "Javascript"],
-        "live_link": "https://........",
-        "github_link": "https.........",
-        "image_urls": "https://via.placeholder.com/150"
-    }]
+        "live_link": "https://ykassabi.github.io/oop_game-v2/",
+        "github_link": "https://ykassabi.github.io/oop_game-v2/",
+        "image_urls": ["/images/FSJS05.png","/images/FSJS05a.png","/images/FSJS05b.png"]
+    },{
+        "id": 6,
+        "project_name": "Web Scapper",
+        "description": "A Javascript app, able to target website and grab data and save it to file .csv, using just  NodeJs, capable to do it periodicaly every 7 days. ",
+        "technologies": ["Javascript"],
+        "live_link": "#",
+        "github_link": "https://github.com/YKassabi/Project06fsjs",
+        "image_urls": ["/images/FSJS06.png"]
+    }
+    ]
 }
